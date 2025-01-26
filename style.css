@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background: rgb(255,254,254);
+    background: radial-gradient(circle, rgba(255,254,254,1) 0%, rgba(252,230,217,1) 100%);
+    font-family: "Playfair Display", serif;
+}
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    border-radius: 10%;
+    color: darkblue;
+}
+
+.deco {
+    text-decoration: line-through;
+}
+
+.content {
+    margin-top: 15%;
+    max-width: 600px;
+    margin-left: 150px;
+}
+
+.content h1 {
+    font-size: 65px;
+    margin: 0; /* Remove default margins */
+    line-height: 1;
+}
+
+.content .deco {
+    text-decoration: line-through;
+}
+
+.content .row {
+    display: flex;
+    gap: 3%;
+}
+
+.content p {
+    font-size: large;
+}
+
+.img-1 {
+    width: 500px;
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    top: 15%;
+    border-radius: 5%;
+}
